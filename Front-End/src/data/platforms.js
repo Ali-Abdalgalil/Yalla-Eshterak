@@ -5,7 +5,7 @@ import netflixLogo from '../assets/images/netflix.webp'
 import osnLogo from '../assets/images/osn.webp'
 import primeVideoLogo from '../assets/images/prime_new.webp'
 import huluLogo from '../assets/images/hulu.webp'
-import disneyPlusLogo from '../assets/images/disney_Plus.webp'
+import disney_PlusLogo from '../assets/images/disney_Plus.webp'
 
 export const platforms = [
   {
@@ -77,7 +77,7 @@ export const platforms = [
     slug: 'disney-plus',
     description: 'أقوى العوالم الترفيهية تجتمع هنا: Disney، Pixar، Marvel، Star Wars، وNational Geographic.',
     price: '$10.99/month',
-    logo: disneyPlusLogo,
+    logo: disney_PlusLogo,
     color: '#113CCF'
   }
 ]
