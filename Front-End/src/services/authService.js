@@ -30,7 +30,7 @@ export async function login(email, password) {
 /* 📝 REGISTER */
 export async function register(firstName, lastName, email, password) {
   try {
-    const { data } = await api.post('/api/users/signup', {
+    const { data } = await api.post('/users/signup', {
       firstName,
       lastName,
       email,
