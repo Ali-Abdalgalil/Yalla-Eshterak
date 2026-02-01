@@ -3,7 +3,7 @@ import shahidLogo from '../assets/images/shahid.jpg'
 import viuLogo from '../assets/images/viu.webp'
 import netflixLogo from '../assets/images/netflix.webp'
 import osnLogo from '../assets/images/osn.webp'
-import primeVideoLogo from '../assets/images/primeVideo.webp'
+import primeVideoLogo from '../assets/images/prime-video.webp'
 import huluLogo from '../assets/images/hulu.webp'
 import disneyPlusLogo from '../assets/images/disneyplus.webp'
 
