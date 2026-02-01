@@ -7,7 +7,7 @@ import { ENV } from "./../config/env.service.js";
 export const bootstrap = async () => {
   const app = express();
   const corsOptions = {
-    origin: "http://localhost:3000",
+    origin: 'https://yalla-eshterak-nu.vercel.app',
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "Accept"],
     credentials: true,
