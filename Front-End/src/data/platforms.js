@@ -5,7 +5,7 @@ import netflixLogo from '../assets/images/netflix.webp'
 import osnLogo from '../assets/images/osn.webp'
 import primeVideoLogo from '../assets/images/prime_new.webp'
 import huluLogo from '../assets/images/hulu.webp'
-import disneyPlusLogo from '../assets/images/disneyplus.webp'
+import disneyPlusLogo from '../assets/images/disney_Plus.webp'
 
 export const platforms = [
   {
