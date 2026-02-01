@@ -1,0 +1,27 @@
+# Front-End Ignores
+Front-End/logs
+Front-End/*.log
+Front-End/npm-debug.log*
+Front-End/yarn-debug.log*
+Front-End/yarn-error.log*
+Front-End/pnpm-debug.log*
+Front-End/lerna-debug.log*
+Front-End/node_modules
+Front-End/dist
+Front-End/dist-ssr
+Front-End/*.local
+Front-End/.vscode/*
+Front-End/!.vscode/extensions.json
+Front-End/.idea
+Front-End/.DS_Store
+Front-End/*.suo
+Front-End/*.ntvs*
+Front-End/*.njsproj
+Front-End/*.sln
+Front-End/*.sw?
+Front-End/.env
+
+# Back-End Ignores
+Back-End/node_modules
+Back-End/package-lock.json
+Back-End/.env
