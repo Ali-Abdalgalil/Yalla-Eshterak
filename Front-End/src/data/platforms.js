@@ -3,7 +3,7 @@ import shahidLogo from '../assets/images/shahid.jpg'
 import viuLogo from '../assets/images/viu.webp'
 import netflixLogo from '../assets/images/netflix.webp'
 import osnLogo from '../assets/images/osn.webp'
-import primeVideoLogo from '../assets/images/primevideo.webp'
+import primeVideoLogo from '../assets/images/primeVideo.webp'
 import huluLogo from '../assets/images/hulu.webp'
 import disneyPlusLogo from '../assets/images/disneyplus.webp'
 
@@ -89,7 +89,7 @@ export const getPlatformBySlug = (slug) => {
 export const searchPlatforms = (query) => {
   if (!query) return platforms
   const lowerQuery = query.toLowerCase()
-  return platforms.filter(p => 
+  return platforms.filter(p =>
     p.name.toLowerCase().includes(lowerQuery) ||
     p.description.toLowerCase().includes(lowerQuery)
   )
