@@ -18,7 +18,7 @@ api.interceptors.request.use((config) => {
 /* 🔑 LOGIN */
 export async function login(email, password) {
   try {
-    const { data } = await api.post('/api/users/login', { email, password })
+    const { data } = await api.post('/users/login', { email, password })
     return data
   } catch (error) {
     throw new Error(
@@ -47,7 +47,7 @@ export async function register(firstName, lastName, email, password) {
 /* 👤 GET PROFILE */
 export async function getProfile() {
   try {
-    const { data } = await api.get('/api/users/me')
+    const { data } = await api.get('/users/me')
     return data
   } catch (error) {
     throw error
